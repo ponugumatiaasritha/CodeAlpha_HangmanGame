@@ -1,127 +1,70 @@
-# Hangman Game in Python
+# Hangman-Game/
 
-## Project Title
+A simple command-line **Hangman** game built in Python. Guess the hidden word one letter at a time before you run out of attempts!
 
-**Hangman Game**
+## 📌 About the Project
 
----
+This is a beginner-friendly console-based Hangman game. The program randomly selects a word from a predefined list, and the player has to guess it letter by letter. The player has a limited number of incorrect guesses (6) before the game ends.
 
-## Project Description
+## 🎮 How It Works
 
-This project is a simple command-line implementation of the classic **Hangman Game** using Python. The program randomly selects a word from a predefined list, and the player has to guess the word one letter at a time. The player is given **6 incorrect attempts** to guess the word before the game ends.
+1. The program randomly picks a word from a list of words.
+2. The word is displayed as underscores (`_`), one for each letter.
+3. The player enters one letter at a time.
+4. If the letter is in the word, it is revealed in its correct position(s).
+5. If the letter is not in the word, one attempt is deducted.
+6. The game ends when:
+   - The player guesses the full word correctly (**Win**), or
+   - The player runs out of attempts (**Game Over**).
 
-The game validates user input, prevents duplicate guesses, and displays the player's progress after each attempt.
+## 🛠️ Features
 
----
+- Random word selection from a word list
+- Tracks already guessed letters (no duplicate guesses)
+- Input validation (only single alphabet characters allowed)
+- Displays remaining incorrect guesses after each wrong attempt
+- Simple, clean console output with emojis for feedback (✅ ❌ 🎉 😢)
 
-## Features
+## 📂 Word List
 
-* Randomly selects a word from a predefined list.
-* Allows the player to guess one letter at a time.
-* Displays correctly guessed letters and hides unknown letters using underscores.
-* Prevents duplicate letter guesses.
-* Validates user input to ensure only one alphabet is entered.
-* Gives the player 6 incorrect attempts.
-* Displays a winning or losing message at the end of the game.
-
----
-
-## Technologies Used
-
-* **Programming Language:** Python 3
-* **Library Used:**
-
-  * `random` (built-in Python module)
-
----
-
-## Installation Steps
-
-1. Install **Python 3.x** on your computer.
-2. Download or clone this project.
-3. Save the Python file (e.g., `ex_hangman.py`) to your desired folder.
-4. Open a terminal or command prompt.
-5. Navigate to the project directory.
-
----
-
-## How to Run the Project
-
-Run the following command in the terminal:
-
-```bash
-python ex_hangaman.py
-```
-
-or
-
-```bash
-python3 ex_hangaman.py
-```
-
-### Sample Output
+The current word list includes:
 
 ```
-====== HANGMAN GAME ======
-Guess the word one letter at a time!
-You have 6 incorrect guesses.
-
-Word: _ _ _ _ _ _ _
-
-Enter a letter: p
-✅ Correct!
-
-Word: p _ _ _ _ _ _
-
-Enter a letter: x
-❌ Wrong!
-Remaining incorrect guesses: 5
+python, computer, program, student, hangman
 ```
 
-The game continues until:
+You can easily add more words by editing the `words` list in the script.
 
-* The player correctly guesses the word, or
-* All 6 incorrect attempts are used.
+## ▶️ How to Run
 
----
+1. Make sure you have **Python 3** installed.
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/ponugumatiaasritha/CodeAlpha_HangmanGame.git
+   cd CodeAlpha_HangmanGame
+   ```
+3. Run the script:
+   ```bash
+   python ex_hangaman.py
+   ```
+4. Follow the on-screen prompts to guess letters and try to win the game!
 
-## Project Structure
+## 🖥️ Requirements
 
-```
-Hangman-Game/
-│
-├── ex_hangaman.py      # Main Python source code
-├── README.md           # Project documentation
-```
-
----
-
-## Author Information
-
-**Name:** Aasritha Ponugumati
-
-**Course:** B.Tech – CSE (IoT)
-
-**College:** RVR & JC College of Engineering
-
----
-
-## License (Optional)
-
-This project is developed for educational and learning purposes. It is free to use, modify, and distribute for academic and personal use.
-
+- Python 3.x
+- No external libraries required (uses only the built-in `random` module)
 
 ## Screenshots
 
-
 ### Game Start
 ![Game Start](start.png)
-
-### Winning Screen
-![Winning Screen](win.png)
 
 ### Wrong Guess
 ![Wrong Guess](wrong_guess.png)
 
 ### Gameplay
 ![Gameplay](Screenshot%202026-08-04%20224709.png)
+
+## 📄 License
+
+This project is developed for educational and learning purposes. It is free to use, modify, and distribute for academic and personal use.
