@@ -110,8 +110,8 @@ Hangman-Game/
 
 This project is developed for educational and learning purposes. It is free to use, modify, and distribute for academic and personal use.
 
-## Screenshots
 
+## Screenshots
 ### Game Start
 ![Game Start](start.png)
 
@@ -122,5 +122,4 @@ This project is developed for educational and learning purposes. It is free to u
 ![Wrong Guess](wrong_guess.png)
 
 ### Gameplay
-![Gameplay](Screenshot%202026-08-04%20224709.png).
-
+![Gameplay](Screenshot%202026-08-04%20224709.png)
