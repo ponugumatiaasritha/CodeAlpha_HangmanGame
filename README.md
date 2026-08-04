@@ -112,6 +112,8 @@ This project is developed for educational and learning purposes. It is free to u
 
 
 ## Screenshots
+
+
 ### Game Start
 ![Game Start](start.png)
 
