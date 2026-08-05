@@ -52,18 +52,7 @@ You can easily add more words by editing the `words` list in the script.
 ## 🖥️ Requirements
 
 - Python 3.x
-- No external libraries required (uses only the built-in `random` module)
-
-## Screenshots
-
-### Game Start
-![Game Start](start.png)
-
-### Wrong Guess
-![Wrong Guess](wrong_guess.png)
-
-### Gameplay
-![Gameplay](Screenshot%202026-08-04%20224709.png)
+- No external libraries required (uses only the built-in `random` module!
 
 ## 📄 License
 
